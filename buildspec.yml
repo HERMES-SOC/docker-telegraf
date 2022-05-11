@@ -1,11 +1,5 @@
 version: 0.2
 
-env:
-  variables:
-    AWS_DEFAULT_REGION: 'us-east-2'
-    AWS_ACCOUNT_ID: ${{ secrets.AWS_ACOUNT_ID }}
-    IMAGE_REPO_NAME: ${{ secrets.IMAGE_REPO_NAME }}
-
 phases:
   pre_build:
     commands:
